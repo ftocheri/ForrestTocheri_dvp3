@@ -1,0 +1,44 @@
+{
+	"locations": 
+	[
+		{
+			"id": 1,
+			"image": "https://3.bp.blogspot.com/-Hmc_GwA48cE/URQhNsCO7xI/AAAAAAAAGkg/QqHJArcdnDg/s1600/heroes-banner-updated.jpg",
+			"topic": "RPGs",
+			"description": "Current and anticipated Role Playing Games.",
+			"key1": "Popularity",
+			"key2": "Difficulty",
+			"key3": "Social",
+			"value1": 40,
+			"value2": 80,
+			"value3": 60,
+			"link": "https://en.wikipedia.org/wiki/Role-playing_video_game" 
+		},
+		{
+			"id": 2,
+			"image": "http://ichef.bbci.co.uk/news/976/cpsprodpb/1293A/production/_85209067_nintendo-new-super-mario-bros-ds-art-screenshot.jpg",
+			"topic": "Platformers",
+			"description": "Current and anticipated Platformers.",
+			"key1": "Popularity",
+			"key2": "Difficulty",
+			"key3": "Social",
+			"value1": 40,
+			"value2": 80,
+			"value3": 60,
+			"link": "https://en.wikipedia.org/wiki/Platform_game" 
+		},
+		{
+			"id": 3,
+			"image": "https://upload.wikimedia.org/wikipedia/en/d/d1/Doom_ingame_2.png",
+			"topic": "FPS",
+			"description": "Current and anticipated First Person Shooters.",
+			"key1": "Popularity",
+			"key2": "Difficulty",
+			"key3": "Social",
+			"value1": 40,
+			"value2": 80,
+			"value3": 60,
+			"link": "https://en.wikipedia.org/wiki/First-person_shooter"
+		}
+	]
+}
