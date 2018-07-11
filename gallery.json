@@ -3,18 +3,21 @@
 	[
 		{
 			"id": 1,
-			"image": "http://bdfjade.com/data/out/24/5324517-gaming-pictures.jpg",
-			"description": "Current and anticipated Role Playing Games.",
+			"image": "https://cdn.images.express.co.uk/img/dynamic/143/590x/Super-Mario-games-828413.jpg",
+			"description": "Mario is a short Italian plumber who lives in the Mushroom Kingdom. In the Mario series, he uses his well-known jump and combat abilities to stop Bowser from kidnapping Princess Peach and taking over the Mushroom Kingdom. Along with Luigi, has had other friends such as Yoshi and Toad.",
+			"title": "Mario"
 		},
 		{
 			"id": 2,
-			"image": "http://bdfjade.com/data/out/24/5324980-gaming-pictures.jpg",
-			"description": "Current and anticipated Platformers.",
+			"image": "https://cdn.vox-cdn.com/thumbor/vrDptKBjaXkY4YFxMTrWGl54EF0=/0x0:1920x2227/1200x675/filters:focal(807x919:1113x1225)/cdn.vox-cdn.com/uploads/chorus_image/image/56621589/3DS_MetroidSamusReturns_illustration_01.0.jpg",
+			"description": "Samus Aran is an ex-soldier of the Galactic Federation who became a galactic bounty hunter, usually fitted with a powered exoskeleton that is equipped with weapons such as directed-energy weapons and missiles. Throughout the series, she executes missions given to her by the Galactic Federation while hunting the antagonistic Space Pirates and their leader Ridley, along with the parasitic energy-draining organisms called Metroids.",
+			"title": "Samus"
 		},
 		{
 			"id": 3,
-			"image": "http://bdfjade.com/data/out/24/5324610-gaming-pictures.jpg",
-			"description": "Current and anticipated First Person Shooters.",
+			"image": "https://i.ytimg.com/vi/bBmWWvJquGM/maxresdefault.jpg",
+			"description": "Link is the main protagonist of the Legend of Zelda series. He is the everlasting hero of the setting, having appeared throughout the ages in a neverending line of incarnations. The various heroes who use the name Link are courageous young boys or teenagers in green clothing who leave their homes to save the world from evil forces threatening it.",
+			"title": "Link"
 		}
 	]
 }
