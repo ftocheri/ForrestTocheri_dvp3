@@ -18,6 +18,18 @@
 			"image": "https://i.ytimg.com/vi/bBmWWvJquGM/maxresdefault.jpg",
 			"description": "Link is the main protagonist of the Legend of Zelda series. He is the everlasting hero of the setting, having appeared throughout the ages in a neverending line of incarnations. The various heroes who use the name Link are courageous young boys or teenagers in green clothing who leave their homes to save the world from evil forces threatening it.",
 			"title": "Link"
+		},
+		{
+			"id": 4,
+			"image": "https://i.ytimg.com/vi/w0lVhUF_xxE/maxresdefault.jpg",
+			"description": "Captain Falcon is a mysterious, futuristic racer from the city of Port Town. In later F-Zero games, he is also portrayed as a legendary bounty hunter whose past is shrouded in mystery. In both guises, he consistently thwarts the plans of Black Shadow and other evil forces, both on and off the Grand Prix circuits.",
+			"title": "Captain Falcon"
+		},
+		{
+			"id": 5,
+			"image": "https://twinfinite.net/wp-content/uploads/2018/04/god-of-war-header.jpg",
+			"description": "Kratos, also known as the Ghost of Sparta, is a video game character from Sony Santa Monica's God of War series, which was based on Greek mythology, before shifting to Norse mythology. Kratos first appeared in the 2005 video game God of War, which led to the development of seven additional games featuring the character as the protagonist. Kratos also appears as the protagonist of the God of War comic series and novels. The character was voiced by Terrence C. Carson from 2005 to 2013,[5] with Christopher Judge taking over the role in 2018's continuation, God of War. Antony Del Rio voiced the character as a child in God of War: Ghost of Sparta.",
+			"title": "Kratos"
 		}
 	]
 }
