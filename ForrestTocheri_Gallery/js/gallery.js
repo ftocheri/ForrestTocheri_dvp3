@@ -37,7 +37,7 @@ xhr.onload = function()
 		function nextImage(event)
 		{
 			//check that the counter does not exceed our array size
-			if(x == 2)
+			if(x == (data.images.length - 1))
 			{
 				x = 0;
 			}
@@ -60,7 +60,7 @@ xhr.onload = function()
 		{
 			if(x == 0)
 			{
-				x = 2;
+				x = (data.images.length - 1);
 			}
 			else 
 			{
