@@ -3,7 +3,8 @@ var d = document.querySelectorAll('form p');
 d[0].innerHTML = "Let me know of any updates or errors that I have made while discussing these games. Also, if there is a topic you would like me to cover in the future.";
 document.body.style.backgroundImage = "url('https://wallpapertag.com/wallpaper/full/b/e/4/342028-game-background-2560x1440-for-windows.jpg')";
 d[1].innerHTML = "<label for='tag'>tag</label><input type='text' name='tag' id='tag' class='required' placeholder='Tag' />";
-d[3].innerHTML = "<label for='fgame'>Favorite Game</label><input type='text' name='fgame' id='phone' class='required' placeholder='Favorite Game' />";
+d[3].innerHTML = "<label for='fgame'>Favorite Game</label><input type='text' name='fgame' id='fgame' class='required' placeholder='Favorite Game' />";
+d[4].innerHTML = "<textarea name='message' id='message' class='required' cols='30' rows='10' placeholder='Message'></textarea>";
 var btn = document.querySelector('body button');
 btn.setAttribute('class', 'disabled');
 
@@ -12,7 +13,7 @@ function validateForm(event)
 	event.preventDefault();
 
 	var form = document.querySelector('form');
-	var fields = form.querySelectorAll('required');
+	var fields = form.querySelectorAll('.required');
 
 	var valid = true;
 
@@ -50,7 +51,7 @@ function validateRequired(event)
 	}
 }
 
-var requiredFields = document.querySelectorAll('form .required');
+var requiredFields = document.querySelectorAll('.required');
 for(var i = 0; i < requiredFields.length; i++)
 {
 	requiredFields[i].addEventListener('input', validateForm);
@@ -64,8 +65,8 @@ function send(event)
 	var form = document.querySelector('form');
 	var message = '<h2>Thank You!</h2><p>Your message is important to me!</p>';
 
-	var target = event.target;
-	var disabled = target.classList.contains('disabled');
+	//var target = event.target;
+	var disabled = form.classList.contains('disabled');
 
 	if(disabled === false)
 	{
