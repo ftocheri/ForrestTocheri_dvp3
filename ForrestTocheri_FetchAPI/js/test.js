@@ -1,8 +1,15 @@
 var xhr = new XMLHttpRequest();
 
+function getRandomInt(max)
+{
+	return Math.floor(Math.random() * Math.floor(max));
+}
+
+var num = getRandomInt(649);
+
 xhr.onload = function()
-	{
-		function createNode(element)
+{
+	function createNode(element)
 	{
 		return document.createElement(element);
 	}
@@ -25,7 +32,6 @@ xhr.onload = function()
 
 		img.src = data.sprites.front_default;
 		img2.src = data.sprites.front_shiny;
-		//h3.innerHTML = `Height:${data.height} Weight:${data.weight} Base EXP:${data.base_experience}`;
 		h3.innerHTML = "Height: " + data.height +  "&emsp;Weight: " + data.weight + "&emsp;BaseXP: " + data.base_experience;
 
 		append(li,img);
@@ -34,5 +40,5 @@ xhr.onload = function()
 		append(ul,li);
 	}
 }
-xhr.open('GET', 'http://pokeapi.salestock.net/api/v2/pokemon/6/', true);
+xhr.open('GET', 'http://pokeapi.salestock.net/api/v2/pokemon/' + num + '/', true);
 xhr.send(null);
