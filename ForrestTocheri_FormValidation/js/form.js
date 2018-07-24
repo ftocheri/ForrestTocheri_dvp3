@@ -116,5 +116,5 @@ function send(event)
 	}
 }
 
-//var submit = document.querySelector('[type=submit]');
+//add the event to our button
 btn.addEventListener('click', send);
