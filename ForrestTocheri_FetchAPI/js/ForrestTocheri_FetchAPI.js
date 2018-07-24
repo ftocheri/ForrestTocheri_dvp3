@@ -9,13 +9,13 @@ function append(parent,el)
 }
 
 const ul = document.getElementById("pokemon");
-const url = 'http://pokeapi.co/api/v2/pokemon/1';
+const url = 'http://pokeapi.salestock.net/api/v2/pokemon/6/';
 
-fetch(url, {mode:'no-cors'})
+fetch(url)
 .then((resp) => resp.json())
 .then(function(data)
 {
-	let pokemon = data;
+	let pokemon = data.forms;
 
 	return pokemon.map(function(poke)
 	{
@@ -23,8 +23,8 @@ fetch(url, {mode:'no-cors'})
 		img = createNode('img'),
 		span = createNode('span');
 
-		img.src=poke.sprites;
-		span.innerHTML=poke.name;
+		img.src=poke.front_default;
+		span.innerHTML=`${poke.name} ${poke.id}`;
 
 		append(li,img);
 		append(li,span);
