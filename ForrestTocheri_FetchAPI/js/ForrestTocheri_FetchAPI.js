@@ -1,28 +1,29 @@
-var xhr = new XMLHttpRequest();
+function createNode(element)
+{
+	return document.createElement(element);
+}
+
+function append(parent,el)
+{
+	return parent.appendChild(el);
+}
+
+var num = getRandomInt(649);
+if(num == 0)
+{
+	num + 1;
+}
 
 function getRandomInt(max)
 {
 	return Math.floor(Math.random() * Math.floor(max));
 }
 
-var num = getRandomInt(649);
+const ul = document.getElementById("pokemon");
 
-xhr.onload = function()
-{
-	function createNode(element)
-	{
-		return document.createElement(element);
-	}
-
-	function append(parent,el)
-	{
-		return parent.appendChild(el);
-	}
-
-	var data = JSON.parse(xhr.responseText);
-	const ul = document.getElementById("pokemon");
-
-	if(ul)
+fetch('http://pokeapi.salestock.net/api/v2/pokemon/' + num + '/')
+	.then((resp) => resp.json())
+	.then(function(data)
 	{
 		document.querySelector('body h2').innerHTML = `${data.name} #${data.id}`;
 		let li = createNode('li'),
@@ -69,7 +70,9 @@ xhr.onload = function()
 		append(li, p3);
 		append(li, h3);
 		append(ul,li);
+	})
+	.catch(function(error)
+	{
+		console.log(error);
 	}
-}
-xhr.open('GET', 'http://pokeapi.salestock.net/api/v2/pokemon/' + num + '/', true);
-xhr.send(null);
+);
